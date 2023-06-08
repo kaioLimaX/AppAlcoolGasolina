@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        getSupportActionBar()?.setTitle("App Alcool ou gasolina");
+        getSupportActionBar()?.setTitle("App Alcool ou gasolina")
 
 
         textAlcool = findViewById(R.id.text_alcool)
@@ -50,10 +50,6 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
-
-
-
-
 
     }
 }

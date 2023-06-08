@@ -11,12 +11,10 @@ class DetalhesActivity : AppCompatActivity() {
     private lateinit var textoAlcool : TextView
     private lateinit var textoResultado : TextView
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detalhes)
-
-
+        getSupportActionBar()?.setTitle("Resultado Calculo");
 
         textoGasolina = findViewById(R.id.textGasolina)
         textoAlcool = findViewById(R.id.textAlcool)
