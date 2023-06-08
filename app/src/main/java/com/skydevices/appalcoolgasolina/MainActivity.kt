@@ -43,10 +43,10 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
 
                 }else{
-                    Toast.makeText(this, "digite um valor Valido Para Alcool", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "digite um valor valido para alcool", Toast.LENGTH_SHORT).show()
                 }
             }else{
-                Toast.makeText(this, "digite um valor Valido Para Gasolina", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "digite um valor valido para gasolina", Toast.LENGTH_SHORT).show()
             }
 
         }
